@@ -1,0 +1,351 @@
+const fr = {
+  meta: {
+    siteName: "Sidoine Ahizigbe",
+    titleSuffix: " — Sidoine Ahizigbe",
+    defaultDescription:
+      "Sidoine Ahizigbe — profil technique et numérique entre froid & climatisation, technologie et solutions numériques. Fondateur de KONFORTECH BÉNIN.",
+  },
+  nav: {
+    home: "Accueil",
+    about: "À propos",
+    expertise: "Expertise",
+    projects: "Projets",
+    konfortech: "KONFORTECH",
+    vision: "Vision",
+    cv: "CV",
+    contact: "Contact",
+    collaborate: "Collaborer",
+  },
+  footer: {
+    tagline: "Technique. Technologie. Solutions numériques.",
+    linksTitle: "Navigation",
+    konfortechTitle: "Structure",
+    konfortechCta: "Visiter KONFORTECH BÉNIN",
+    rights: "Sidoine Ahizigbe. Tous droits réservés.",
+  },
+  home: {
+    kicker: "Bénin · UNSTIM · Tech & Digital",
+    title: "Sidoine Ahizigbe",
+    tagline: "Technique. Technologie. Solutions numériques.",
+    lead: "Je développe des projets à l'intersection du froid et de la climatisation, des technologies connectées et des solutions numériques.",
+    ctaPrimary: "Découvrir mon parcours",
+    ctaSecondary: "Explorer mes projets",
+    ctaKonfortech: "Découvrir KONFORTECH BÉNIN",
+    signalTitle: "Du système physique à la solution",
+    signalSteps: ["Froid", "Capteur", "Data", "Logiciel", "Intelligence", "Solution"],
+    pillarsTitle: "Trois univers, une trajectoire",
+    pillars: [
+      {
+        label: "Technique",
+        text: "Comprendre les installations frigorifiques et de climatisation de l'intérieur : diagnostic, maintenance, fonctionnement réel des systèmes.",
+      },
+      {
+        label: "Technologie",
+        text: "Connecter ces systèmes physiques à des capteurs et des objets communicants pour en tirer des données exploitables.",
+      },
+      {
+        label: "Solutions",
+        text: "Transformer ces données en outils numériques concrets — plateformes, tableaux de bord, automatisations.",
+      },
+    ],
+    aboutTitle: "Comprendre le profil derrière les projets",
+    aboutText:
+      "Étudiant en Froid & Climatisation à l'UNSTIM, je construis en parallèle des projets technologiques et numériques. Un profil en formation, qui apprend en expérimentant.",
+    aboutCta: "En savoir plus",
+    expertiseTitle: "Expertise",
+    expertiseCta: "Voir les quatre domaines",
+    projectsTitle: "Projets",
+    projectsText: "Des projets techniques et numériques, présentés tels qu'ils sont : prototypes, expérimentations, développements en cours.",
+    projectsCta: "Voir tous les projets",
+    konfortechTitle: "KONFORTECH BÉNIN",
+    konfortechText:
+      "La structure qui porte mes projets vers des solutions concrètes, à la croisée du web et de la climatisation.",
+    konfortechCta: "Découvrir la structure",
+    visionTitle: "Vision",
+    visionText: "Rendre les systèmes techniques plus intelligents, à l'échelle des réalités africaines.",
+    visionCta: "Lire la vision",
+    finalTitle: "Construisons quelque chose de concret.",
+    finalText: "Un projet technique, une idée numérique, ou une envie de collaborer avec KONFORTECH BÉNIN.",
+    finalCta: "Me contacter",
+  },
+  about: {
+    kicker: "À propos",
+    title: "Comprendre le profil derrière les projets",
+    intro:
+      "Je suis étudiant à l'UNSTIM Bénin, en Froid & Climatisation / Génie Énergétique et Procédés. En parallèle de cette formation technique, je construis des projets numériques : sites, plateformes, expérimentations autour de l'IoT.",
+    body1:
+      "Mon parcours n'est pas linéaire au sens classique : il avance par curiosité, par apprentissage et par construction. Je m'intéresse aux systèmes connectés — comment un capteur, une donnée et un logiciel peuvent améliorer un métier technique que je connais de l'intérieur.",
+    body2:
+      "C'est cette double casquette — technique d'un côté, numérique de l'autre — qui a donné naissance à KONFORTECH BÉNIN, la structure à travers laquelle je porte mes projets vers des solutions concrètes.",
+    valuesTitle: "Ce qui guide mon travail",
+    values: ["Curiosité", "Apprentissage continu", "Expérimentation", "Construction concrète"],
+    timelineTitle: "Parcours",
+    timeline: [
+      {
+        period: "En cours",
+        title: "Étudiant en Froid & Climatisation / Génie Énergétique et Procédés",
+        place: "UNSTIM Bénin, Abomey",
+        text: "Formation technique aux systèmes frigorifiques et de climatisation : diagnostic, maintenance, fonctionnement des installations.",
+      },
+      {
+        period: "En parallèle",
+        title: "Développement de projets numériques",
+        place: "Autodidacte",
+        text: "Construction de sites, d'interfaces et de projets IoT expérimentaux, en apprentissage continu.",
+      },
+      {
+        period: "Aujourd'hui",
+        title: "Fondateur de KONFORTECH BÉNIN",
+        place: "Bénin",
+        text: "Structure de conception de solutions techniques, entre web et climatisation.",
+      },
+    ],
+  },
+  expertise: {
+    kicker: "Expertise",
+    title: "Quatre domaines, une même logique",
+    intro:
+      "Du système physique à la solution numérique. Chaque domaine est présenté avec honnêteté, selon mon niveau réel de pratique.",
+    items: [
+      {
+        num: "01",
+        title: "Froid & Climatisation",
+        tag: "Formation & pratique technique",
+        text: "Compréhension des installations frigorifiques et de climatisation : fonctionnement, entretien, diagnostic de base.",
+        points: ["Froid commercial et domestique", "Climatisation", "Maintenance & entretien", "Diagnostic de pannes", "Compréhension des installations techniques"],
+      },
+      {
+        num: "02",
+        title: "Technologie",
+        tag: "Expérimentation IoT",
+        text: "Connecter les systèmes physiques au numérique : capteurs, microcontrôleurs, collecte et supervision de données.",
+        points: ["IoT & objets connectés", "ESP32", "Capteurs (température, humidité, tension)", "Collecte & monitoring de données", "Systèmes d'alerte"],
+      },
+      {
+        num: "03",
+        title: "Solutions numériques",
+        tag: "Développement",
+        text: "Développer des outils numériques pour résoudre des problèmes concrets, pas seulement écrire du code.",
+        points: ["Développement web", "Applications & plateformes", "Interfaces utilisateur", "Automatisation", "Intégration de services (formulaires, API)"],
+      },
+      {
+        num: "04",
+        title: "Innovation technique",
+        tag: "Exploration",
+        text: "Explorer, prototyper et tester des idées à la frontière du technique et du numérique.",
+        points: ["Prototypage", "Analyse de données", "IA appliquée (expérimentale)", "Systèmes intelligents", "Expérimentation"],
+      },
+    ],
+  },
+  projects: {
+    kicker: "Projets",
+    title: "Des projets, pas des promesses",
+    intro:
+      "Chaque projet est présenté comme une étude de cas honnête : le problème étudié, l'approche retenue, les technologies utilisées, et son état réel d'avancement.",
+    statusLabel: "État",
+    readCase: "Voir l'étude de cas",
+    items: [
+      {
+        id: "coldtrack",
+        title: "ColdTrack",
+        oneLiner: "Supervision IoT d'installations frigorifiques",
+        status: "Prototype en développement",
+        tech: ["ESP32", "Capteurs", "API", "Dashboard"],
+      },
+      {
+        id: "climconnect",
+        title: "ClimConnect",
+        oneLiner: "Mise en relation clients et techniciens froid & climatisation",
+        status: "Concept en développement",
+        tech: ["Plateforme web", "Profils techniciens", "Suivi d'intervention"],
+      },
+      {
+        id: "moleculex",
+        title: "MoleculeX",
+        oneLiner: "Exploration des fluides frigorigènes et de leur impact environnemental",
+        status: "Projet exploratoire / académique",
+        tech: ["Comparaison GWP/COP", "Fiches de fluides", "Analyse"],
+      },
+    ],
+  },
+  coldtrack: {
+    kicker: "Projet · IoT",
+    title: "ColdTrack",
+    tagline: "Supervision IoT appliquée au froid",
+    status: "Prototype en développement",
+    problemTitle: "Problème",
+    problem:
+      "Les installations frigorifiques tombent souvent en panne sans signal précurseur visible : une coupure de courant, une porte restée ouverte, une dérive de température peuvent abîmer des produits avant qu'un technicien n'intervienne.",
+    approachTitle: "Approche",
+    approach:
+      "Surveiller en continu les paramètres clés d'une installation — température, humidité, alimentation, état du compresseur, état de porte — et centraliser ces données pour les rendre lisibles et exploitables.",
+    techTitle: "Technologies",
+    tech: ["ESP32", "Capteurs (température, humidité, tension)", "API de collecte", "Tableau de bord web", "Historique de données"],
+    solutionTitle: "Solution",
+    solution:
+      "Un système de capteurs connectés remonte les données vers un tableau de bord centralisé, avec historique et alertes en cas d'anomalie détectée.",
+    pipelineTitle: "Fonctionnement",
+    pipeline: ["Capteur", "ESP32", "API", "Data", "Dashboard", "Alerte / Analyse"],
+    futureTitle: "Vision future",
+    future: ["Connectivité LoRaWAN", "Passerelles multi-sites", "Détection d'anomalies", "Maintenance prédictive"],
+    stateNote: "Projet technologique en développement — pas encore une solution industrielle commercialisée.",
+  },
+  climconnect: {
+    kicker: "Projet · Plateforme",
+    title: "ClimConnect",
+    tagline: "Connecter clients et techniciens du froid et de la climatisation",
+    status: "Concept en développement",
+    problemTitle: "Problème",
+    problem:
+      "Trouver un technicien froid & climatisation fiable et disponible reste souvent aléatoire, sans visibilité sur ses compétences réelles ni sur le suivi de l'intervention.",
+    approachTitle: "Approche",
+    approach:
+      "Concevoir une plateforme simple qui relie un besoin client à un technicien vérifié, avec un suivi clair de l'intervention du premier contact à la résolution.",
+    techTitle: "Concept",
+    tech: ["Client", "Besoin", "Technicien vérifié", "Intervention", "Suivi"],
+    solutionTitle: "Fonctionnalités envisagées",
+    solution:
+      "Recherche par région, profils techniciens, vérification, messagerie et suivi d'intervention — chacune présentée selon son état réel.",
+    features: [
+      { name: "Recherche par région", state: "En développement" },
+      { name: "Profils techniciens", state: "En développement" },
+      { name: "Vérification des techniciens", state: "Vision future" },
+      { name: "Messagerie", state: "Vision future" },
+      { name: "Suivi d'intervention", state: "En développement" },
+      { name: "Paiement", state: "Vision future" },
+    ],
+    stateNote: "Aucune fonctionnalité n'est présentée comme active tant qu'elle n'est pas réellement disponible.",
+  },
+  moleculex: {
+    kicker: "Projet · Exploration",
+    title: "MoleculeX",
+    tagline: "Fluides frigorigènes et impact environnemental",
+    status: "Projet exploratoire / académique",
+    problemTitle: "Problème",
+    problem:
+      "Le choix d'un fluide frigorigène implique des compromis entre performance (COP) et impact environnemental (GWP), pas toujours simples à comparer.",
+    approachTitle: "Approche",
+    approach:
+      "Explorer et comparer les propriétés de différents fluides et mélanges frigorigènes pour mieux comprendre ces compromis.",
+    techTitle: "Axes explorés",
+    tech: ["Comparaison GWP", "Comparaison COP", "Mélanges de fluides", "Fiches de candidats"],
+    solutionTitle: "Ce que fait le projet",
+    solution:
+      "Une démarche d'exploration et d'analyse des propriétés de fluides frigorigènes, avec une validation expérimentale envisagée à terme.",
+    stateNote: "Démarche exploratoire — pas un logiciel scientifique certifié.",
+  },
+  konfortech: {
+    kicker: "Structure",
+    title: "KONFORTECH BÉNIN",
+    position: "Concepteur de Solutions Techniques | Web & Climatisation",
+    intro:
+      "KONFORTECH BÉNIN est la structure à travers laquelle je transforme ma vision — technique et numérique — en projets et services concrets.",
+    separationTitle: "Sidoine est la personne. KONFORTECH est la structure.",
+    separationText:
+      "Ce site présente mon parcours et mes projets personnels. KONFORTECH BÉNIN porte l'activité professionnelle, à la croisée du web et de la climatisation.",
+    domainsTitle: "Domaines",
+    domains: ["Solutions web", "Froid & climatisation", "Conception technique", "Accompagnement de projets"],
+    axesTitle: "Axes de développement",
+    axes: ["Services web pour professionnels", "Interventions & conseil froid/climatisation", "Projets IoT appliqués au froid"],
+    ctaTitle: "Découvrir l'activité professionnelle",
+    ctaText: "L'ensemble des services et de l'activité de KONFORTECH BÉNIN est présenté sur son site officiel.",
+    ctaButton: "Visiter KONFORTECH BÉNIN",
+  },
+  vision: {
+    kicker: "Vision",
+    title: "Rendre les systèmes techniques plus intelligents",
+    intro:
+      "Ma vision se construit à l'intersection de deux mondes que je connais : les métiers techniques et le numérique.",
+    points: [
+      {
+        title: "Digitaliser les métiers techniques",
+        text: "Les métiers du froid et de la climatisation gagnent à s'appuyer sur des outils numériques simples : suivi, historique, alertes.",
+      },
+      {
+        title: "Des équipements connectés",
+        text: "Des capteurs et des objets communicants permettent de comprendre en continu l'état réel d'une installation.",
+      },
+      {
+        title: "La maintenance préventive",
+        text: "Anticiper une panne plutôt que la subir, grâce aux données collectées sur le terrain.",
+      },
+      {
+        title: "Des solutions adaptées aux réalités africaines",
+        text: "Concevoir avec les contraintes réelles — accès, coût, fiabilité — plutôt qu'avec des standards importés tels quels.",
+      },
+    ],
+  },
+  cv: {
+    kicker: "CV",
+    title: "Parcours et compétences",
+    download: "Télécharger le CV",
+    downloadNote: "Fichier PDF — sera mis à jour dès que disponible.",
+    sections: {
+      formation: "Formation académique",
+      languages: "Langues",
+      skills: "Compétences",
+      certificates: "Certificats & formations",
+      interests: "Centres d'intérêt",
+      projects: "Projets",
+    },
+    formation: [
+      { period: "2024 — en cours", title: "Licence — Froid & Climatisation / Génie Énergétique et Procédés", place: "École Nationale Supérieure de Génie Énergétique et Procédés, UNSTIM" },
+      { period: "2020 — 2024", title: "BAC série D", place: "CEG Avogbanna" },
+      { period: "2017 — 2020", title: "BEPC", place: "CEG Avogbanna" },
+      { period: "2010 — 2016", title: "CEP", place: "EPP l'Académos, Bohicon" },
+    ],
+    languages: [
+      { name: "Français", level: "Excellent (lu, écrit, parlé)" },
+      { name: "Fon", level: "Excellent (lu, écrit, parlé)" },
+      { name: "Anglais", level: "Moyen (lu, écrit, parlé)" },
+    ],
+    certificates: [
+      "Certification in Mental Health and Wellness — YALI Network",
+      "Certification in Understanding Renewable Energy — YALI Network",
+      "Certification in Fundamentals of Starting and Running a Business — YALI Network",
+      "Certification in Fundamentals of Personal Money Management — YALI Network",
+      "Certificat en Informatique",
+      "Formation en automatisation — en cours",
+    ],
+    interests: ["Entrepreneuriat", "Développement personnel", "Sport", "Musique"],
+  },
+  contact: {
+    kicker: "Contact",
+    title: "Construisons quelque chose de concret.",
+    intro: "Un projet technique, une idée numérique ou une opportunité de collaboration : écrivez-moi.",
+    directTitle: "Contact direct",
+    email: "Email",
+    whatsapp: "WhatsApp",
+    fields: {
+      name: "Nom",
+      email: "Email",
+      phone: "Téléphone",
+      organization: "Organisation",
+      subject: "Objet",
+      type: "Type de demande",
+      message: "Message",
+    },
+    types: [
+      "Projet technique",
+      "Froid / Climatisation",
+      "Solution numérique",
+      "IoT / Technologie",
+      "Collaboration avec KONFORTECH",
+      "Opportunité",
+      "Autre",
+    ],
+    submit: "Envoyer le message",
+    sending: "Envoi en cours…",
+    success: "Message envoyé. Je reviens vers vous rapidement.",
+    error: "Une erreur est survenue. Réessayez ou écrivez-moi directement par email.",
+  },
+  notfound: {
+    kicker: "Erreur 404",
+    title: "Signal perdu",
+    text: "Cette page n'existe pas dans le système.",
+    cta: "Retour à l'accueil",
+  },
+};
+
+export default fr;
+export type Dictionary = typeof fr;
