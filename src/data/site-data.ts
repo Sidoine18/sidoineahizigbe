@@ -1,5 +1,3 @@
-
-// Contenu statique du site (anciennement stocké en base). Modifiez ce fichier pour changer les textes.
 export const SITE_SETTINGS = {
   "id": "809e294e-bac4-428f-9fe1-ee552681a561",
   "full_name": "Sidoine Ahizigbe",
@@ -176,6 +174,22 @@ export const GITHUB_REALISATIONS = [
     repositoryUrl: "https://github.com/Sidoine18/sidoineahizigbe",
     imageUrl: "/images/github-sidoineahizigbe.png",
     imageAlt: "Capture du dépôt public Sidoine18/sidoineahizigbe sur GitHub, avec les fichiers du projet et les langages utilisés.",
-    example: true,
+    example: false,
+  },
+  {
+    title: "JS Tech",
+    description: "Dépôt public du site de JS TECH.",
+    repositoryUrl: "https://github.com/Sidoine18/jstech",
+    imageUrl: "/images/github-jstech.png",
+    imageAlt: "Capture du dépôt public Sidoine18/jstech sur GitHub, avec les fichiers du projet et les langages utilisés.",
+    example: false,
+  },
+  {
+    title: "Konfortech",
+    description: "Dépôt public du site de Konfortech Bénin.",
+    repositoryUrl: "https://github.com/Sidoine18/konfortechb-nin",
+    imageUrl: "/images/github-konfortechbenin.png",
+    imageAlt: "Capture du dépôt public Sidoine18/konortechb-nin sur GitHub, avec les fichiers du projet et les langages utilisés.",
+    example: false,
   },
 ];
